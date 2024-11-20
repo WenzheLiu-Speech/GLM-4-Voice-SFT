@@ -33,7 +33,6 @@ def parse_args():
     parser.add_argument("--gradient_accumulation_steps", type=int, default=1, help="")
     parser.add_argument("--warmup_ratio", type=float, default=0.1, help="")
     parser.add_argument("--output_dir", type=str, default=None, help="")
-    parser.add_argument("--mode", type=str, default="interleave_model", help="")
     parser.add_argument("--train_type", type=str, default="lora", help="")
     parser.add_argument("--seed", type=int, default=1234, help="")
     parser.add_argument("--local_rank", type=int, default=-1, help="")
