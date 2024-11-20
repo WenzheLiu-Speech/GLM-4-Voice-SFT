@@ -1,6 +1,6 @@
 # GLM-4-Voice-SFT
 
-SFT code for GLM-4-voice
+a simple SFT project for GLM-4-voice
 
 ## train
 
