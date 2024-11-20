@@ -1,4 +1,4 @@
-# GLM-4-Voice-SFT
+# ChatGLMVoice-SFT
 
 a simple SFT project for GLM-4-voice
 
