@@ -2,6 +2,26 @@
 
 a simple SFT project for GLM-4-voice
 
+## feature extraction
+input.json is a file contains several multi-turn QA, such as 
+```
+[
+  {
+      "user": {"wav_path": "q1.wav"}
+      "agent": {"wav_path": "a1.wav", "text": "xxxx",}
+  }
+  {
+      "user": {"wav_path": "q2.wav"}
+      "agent": {"wav_path": "a2.wav", "text": "xxxx",}
+  }
+  ...
+]
+```
+
+```bash
+python feature_extractor/feature_extractor.py --input_json_file input.json --out_json_file data/data.json
+```
+
 ## train
 
 ```bash
